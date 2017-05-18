@@ -15,6 +15,7 @@ Algumas observações:
 * A interface deve ser responsiva
 * Você pode utilizar  **QUALQUER** préprocessador, framework, taskrunner que desejar.
 * Adotar o Material Design como guia de estilo.
+* Deverá ser realizado uma requisição HTTP para recuperar a lista de cursos. A URL que retorna um JSON está disponível em https://raw.githubusercontent.com/sebraemg/test-frontend/master/api/courses.json
 
 Abaixo segue os protótipos da interface
 
