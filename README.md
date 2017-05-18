@@ -14,19 +14,17 @@ Algumas observações:
 
 * A interface deve ser responsiva
 * Você pode utilizar  **QUALQUER** préprocessador, framework, taskrunner que desejar.
-* Adotar o Material Desing como guia de estilo.
+* Adotar o Material Design como guia de estilo.
 
 Abaixo segue os protótipos da interface
 
-### Tela de listagem de cursos
+### Mobile
 
-![Listagem de cursos - Web](/images/listagem-de-cursos-web.png)
-![Listagem de cursos - Mobile](/images/listagem-de-cursos-mobile.png)
+![Mobile](/prototypes/mobile.png)
 
-### Tela de listagem de cursos
+### Desktop
 
-![Detalhe de curso - Web](/images/detalhe-de-curso-web.png)
-![Detalhe de curso - Mobile](/images/detalhe-de-curso-mobile.png)
+![Desktop](/prototypes/web.png)
 
 
 ## Execução do teste
