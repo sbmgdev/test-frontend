@@ -20,11 +20,24 @@
                 <li><a href="#">Cursos</a></li>
             </ul>
 
-            <ul class="nav navbar-nav navbar-right">
+            <form class="form-inline">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon"><span class="fa fa-search"></span></div>
+
+                        <input type="text" class="form-control" placeholder="Pesquisar">
+                    </div>
+                </div>
+
+            </form>
+
+            <ul class="nav navbar-nav navbar-right search-box">
                 <li><a href="#"><span class="fa fa-search"></span></a></li>
             </ul>
         </nav>
     </header>
+    <div id="board-container" class="container"></div>
+
 </div>
 <div id="event_details"></div>
 <script rel="script" src="node_modules/jquery/dist/jquery.min.js"></script>
