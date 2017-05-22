@@ -1,19 +1,19 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueResource from 'vue-resource'
-import VueRouter from 'vue-router'
-import { routes } from './routes'
+import router from './router'
+import store from './store/index'
+import { sync } from 'vuex-router-sync'
+
+sync(store, router)
 
 Vue.use(VueResource)
-Vue.use(VueRouter)
 
-const router = new VueRouter({
-	routes : routes,
-	mode: 'history',
-})
+Vue.config.productionTip = false
 
 new Vue({
   el: '#app',
   router,
-  render: h => h(App)
+  store,
+  render: h => h(App),
 })
