@@ -33,6 +33,8 @@
           <span>{{ course.consultant.name }}</span>
 
         </md-list-item>
+
+        <md-button class="md-raised md-warn">Inscrição</md-button>
       </md-list>
     </div>
 	</div>
@@ -68,8 +70,25 @@
     margin:0 auto;
   }
   .md-list-item{
+    color:#7e7e7e;
     .md-list-item-container{
       padding:0;
     }
+    span{
+      font-size:14px;
+    }
+  }
+  .md-button{
+    max-width: 120px;
+    color: #000;
+    margin: 30px auto;
+    background-color: #ff9101;
+  }
+  h2{
+    font-weight:normal;
+    font-size:26px;
+  }
+  p{
+    color:#7e7e7e;
   }
 </style>
