@@ -4,12 +4,17 @@ import router from './router'
 import store from './store/index'
 import { sync } from 'vuex-router-sync'
 import VueMaterial from 'vue-material'
-import VueMoment from 'vue-moment'
 
 sync(store, router)
 
+const moment = require('moment')
+require('moment/locale/pt-br')
+
+Vue.use(require('vue-moment'), {
+    moment
+})
+
 Vue.use(VueMaterial)
-Vue.use(VueMoment)
 
 Vue.config.productionTip = false
 
