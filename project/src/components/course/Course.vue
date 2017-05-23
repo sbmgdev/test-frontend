@@ -6,7 +6,7 @@
     <div>
       <md-list>
         <md-list-item>
-          <md-icon>today</md-icon><span>{{ course.start | moment("d") }} de {{ course.start | moment("MMMM") }} de {{ course.start | moment("Y") }} </span>
+          <md-icon>today</md-icon><span>{{ course.start | moment("DD") }} de {{ course.start | moment("MMMM") }} de {{ course.start | moment("Y") }} </span>
         </md-list-item>
 
         <md-list-item>

@@ -8,7 +8,7 @@
 			      <span>{{ city }}</span>
 		      </div>
 			  <md-card-actions class="pd-17">
-			  <span class="date">De {{ start | moment("d/M") }} a {{ finish | moment("d/M/YYYY") }}</span>
+			  <span class="date">De {{ start | moment("DD/MM") }} a {{ finish | moment("DD/MM/YYYY") }}</span>
 			    <md-button class="md-icon-button">
 			      <md-icon>today</md-icon>
 			    </md-button>
