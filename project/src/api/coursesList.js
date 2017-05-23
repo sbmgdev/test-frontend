@@ -14,6 +14,6 @@ axios.get('https://raw.githubusercontent.com/skyzito/test-frontend/96ba2b922a566
 
 export default {
   getCourses (cb) {
-    setTimeout(() => cb(_courses), 100)
+    setTimeout(() => cb(_courses), 500)
   },
 }

@@ -23,7 +23,6 @@
 </template>
 
 <script>
-
 import { mapGetters, mapActions } from 'vuex'
 import Card from '../shared/card/Card.vue'
 

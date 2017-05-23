@@ -36,8 +36,10 @@
     </md-list>
 	</div>
 </template>
+
 <script>
   import { mapActions, mapGetters } from 'vuex'
+  
   export default {
     mounted () {
       this.getAllCourses()
@@ -58,7 +60,6 @@
     }
   }
 </script>
-
 
 <style lang="scss" scoped>
   .container{
