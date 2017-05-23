@@ -1,9 +1,7 @@
 <template>
   <div>
   	<my-topbar />
-    <transition name="pagina">
-      <router-view></router-view>
-    </transition>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -22,11 +20,5 @@ export default {
 	max-width:1030px;
 	margin:0 auto;
 	padding:20px 20px;
-}
-.pagina-enter-active, .pagina-leave-active {
-  transition: opacity .3s;
-}
-.pagina-enter, .pagina-leave-active {
-  opacity: 0;
 }
 </style>
