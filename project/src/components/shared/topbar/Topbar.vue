@@ -5,15 +5,11 @@
 			    <h1 class="md-title" style="flex: 1">
 			    	Cursos <md-icon v-if="['course'].indexOf($route.name) > -1"><i class="material-icons">keyboard_backspace</i></md-icon>
 			    </h1>
-				
 			</router-link>
 		</md-toolbar>
 	</div>
 </template>
 <script>
-export default {
-  
-}
 </script>
 
 <style lang="scss" scoped>
