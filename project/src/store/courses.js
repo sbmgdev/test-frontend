@@ -7,13 +7,13 @@ const state = {
 const actions = {
   getAllCourses ({commit}) {
     coursesList.getCourses(courses => {
-      commit('recieve_courses', courses)
+      commit('receive_courses', courses)
     })
   }
 }
 
 const mutations = {
-  recieve_courses (state, courses) {
+  receive_courses (state, courses) {
     state.all = courses
   },
 }

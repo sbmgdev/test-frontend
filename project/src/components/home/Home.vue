@@ -39,8 +39,8 @@ export default {
       'allCourses',
     ]),
 
-    filteredCourses: function () {
-        var courses_array = this.allCourses,
+    filteredCourses () {
+        let courses_array = this.allCourses,
             searchString = this.searchString;
 
         if(!searchString){
@@ -71,9 +71,9 @@ export default {
   data(){
     return{
       searchString: "",
-      articles: this.allCourses
     }
-  }
+  },
+
 }
 </script>
 

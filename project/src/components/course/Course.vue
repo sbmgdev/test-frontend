@@ -2,47 +2,42 @@
 	<div class="container">
 		<h2>{{ course.title }}</h2>
     <p>{{ course.description }}</p>
+    <md-list>
+      <md-list-item>
+        <md-icon>today</md-icon><span>{{ course.start | moment("DD") }} de {{ course.start | moment("MMMM") }} de {{ course.start | moment("Y") }} </span>
+      </md-list-item>
 
-    <div>
-      <md-list>
-        <md-list-item>
-          <md-icon>today</md-icon><span>{{ course.start | moment("DD") }} de {{ course.start | moment("MMMM") }} de {{ course.start | moment("Y") }} </span>
-        </md-list-item>
+      <md-list-item>
+        <md-icon>query_builder</md-icon> <span>De {{ course.start | moment("HH:mm") }} as {{ course.finish | moment("HH:mm") }} </span>
+      </md-list-item>
 
-        <md-list-item>
-          <md-icon>query_builder</md-icon> <span>De {{ course.start | moment("HH:mm") }} as {{ course.finish | moment("HH:mm") }} </span>
-        </md-list-item>
+      <md-list-item>
+        <md-icon>room</md-icon> <span>{{ course.address.street }}, {{ course.address.number }} - {{ course.address.city }}</span>
+      </md-list-item>
 
-        <md-list-item>
-          <md-icon>room</md-icon> <span>{{ course.address.street }}, {{ course.address.number }} - {{ course.address.city }}</span>
-        </md-list-item>
+      <md-list-item>
+        <md-icon>attach_money</md-icon> <span>R$ {{ course.price }}</span>
+      </md-list-item>
 
-        <md-list-item>
-          <md-icon>attach_money</md-icon> <span>R$ {{ course.price }}</span>
-        </md-list-item>
+      <md-list-item>
+        <md-icon>label</md-icon> <span>{{ course.category }}</span>
+      </md-list-item>
 
-        <md-list-item>
-          <md-icon>label</md-icon> <span>{{ course.category }}</span>
-        </md-list-item>
+      <md-list-item>
+        <md-avatar>
+          <img :src="course.consultant.avatar" alt="People">
+        </md-avatar>
 
-        <md-list-item>
-          <md-avatar>
-            <img :src="course.consultant.avatar" alt="People">
-          </md-avatar>
+        <span>{{ course.consultant.name }}</span>
 
-          <span>{{ course.consultant.name }}</span>
+      </md-list-item>
 
-        </md-list-item>
-
-        <md-button class="md-raised md-warn">Inscrição</md-button>
-      </md-list>
-    </div>
+      <md-button class="md-raised md-warn">Inscrição</md-button>
+    </md-list>
 	</div>
 </template>
 <script>
-
   import { mapActions, mapGetters } from 'vuex'
-
   export default {
     mounted () {
       this.getAllCourses()
@@ -58,11 +53,12 @@
     },
     methods: {
       ...mapActions([
-        'getAllCourses',      
+        'getAllCourses',
       ])
     }
   }
 </script>
+
 
 <style lang="scss" scoped>
   .container{

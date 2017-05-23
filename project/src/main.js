@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueResource from 'vue-resource'
 import router from './router'
 import store from './store/index'
 import { sync } from 'vuex-router-sync'
@@ -9,7 +8,6 @@ import VueMoment from 'vue-moment'
 
 sync(store, router)
 
-Vue.use(VueResource)
 Vue.use(VueMaterial)
 Vue.use(VueMoment)
 
