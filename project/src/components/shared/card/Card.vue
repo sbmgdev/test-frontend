@@ -27,7 +27,7 @@
 <style lang="scss" scoped>
 	.md-card{
 		margin-bottom:25px;
-		min-height:270px;
+		min-height:220px;
 	}
 	hr{
 		width:100%;
