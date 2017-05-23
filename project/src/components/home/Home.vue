@@ -104,7 +104,12 @@ export default {
     margin: 0 auto;
     max-width: 480px;
     z-index: 10;
-    top: -72px;
+    top: 0;
+    margin-bottom:25px;
+    @media (min-width: 720px) {
+      top: -70px;
+      margin-bottom:0;
+    }
     .md-icon{
       position:absolute;
       top:10px;
