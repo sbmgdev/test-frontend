@@ -2,9 +2,10 @@
 	<div>
 		<md-toolbar>
 			<router-link :to="{ name: 'home'}">
-			  <h1 class="md-title" style="flex: 1">Cursos</h1>
-
-		  	
+			    <h1 class="md-title" style="flex: 1">
+			    	Cursos <md-icon v-if="['course'].indexOf($route.name) > -1"><i class="material-icons">keyboard_backspace</i></md-icon>
+			    </h1>
+				
 			</router-link>
 		</md-toolbar>
 	</div>
@@ -27,5 +28,8 @@ export default {
 	}
 	a:not(.md-button):not(.md-bottom-bar-item):hover{
 		text-decoration:none;
+	}
+	.material-icons{
+		color:#fff;
 	}
 </style>
