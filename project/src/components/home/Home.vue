@@ -107,7 +107,7 @@ export default {
     top: 0;
     margin-bottom:25px;
     @media (min-width: 720px) {
-      top: -70px;
+      top: -73px;
       margin-bottom:0;
     }
     .md-icon{
