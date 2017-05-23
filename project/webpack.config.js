@@ -51,7 +51,7 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map'
+  devtool: '#cheap-module-source-map'
 }
 
 if (process.env.NODE_ENV === 'production') {
@@ -72,7 +72,7 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.LoaderOptionsPlugin({
       minimize: true
     }),
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
   ])
 }
