@@ -1,7 +1,7 @@
 {
 	"data": [
 		{	
-			"id": "1",
+			"id": 1,
 			"title": "Consultoria Presencial de Marketing",
 			"category": "Mercado e vendas",
 			"description": "Se você possui um pequeno negócio e deseja melhorar o desempenho da sua gestão, planejar estratégias para vencer a atual crise econômica e está em busca de um trabalho personalizado, conheça a Consultoria Empresarial do Sebrae.",
@@ -20,7 +20,7 @@
 			}
 		},
 		{
-			"id": "2",
+			"id": 2,
 			"title": "Oficina MEI - Aprenda a administrar o seu negócio",
 			"category": "Finanças",
 			"description": "As Oficinas SEI do Sebrae ensinam os principais pontos para a gestão de um negócio eficiente e lucrativo para o Microempreendedor Individual.",
@@ -39,7 +39,7 @@
 			}
 		},
 		{
-			"id": "3",
+			"id": 3,
 			"title": "Curso Empretec",
 			"category": "Mercado e vendas",
 			"description": "O Empretec é uma metodologia da Organização das Nações Unidas - ONU voltada para o desenvolvimento de características de comportamento empreendedor e para a identificação de novas oportunidades de negócios, promovido em cerca de 34 países.",
@@ -58,7 +58,7 @@
 			}
 		},
 		{
-			"id": "4",
+			"id": 4,
 			"title": "Oficina Como ser MEI na Prática",
 			"category": "Empreendedorismo",
 			"description": "Sensibilizar o potencial empresário para os benefícios e deveres fa formalização e orientar sobre a prática do preenchimento dos formulários ideal para pessoas que são formalizadas na condição de Microempreendedor Individual ou que pretendem realizar a formalização.",
@@ -77,7 +77,7 @@
 			}
 		},
 		{
-			"id": "5",
+			"id": 5,
 			"title": "Consultoria Presencial Financeira para Empresários",
 			"category": "Finanças",
 			"description": "Elaboração do Plano de Negócio, custos, planejamento e organização financeira, preço de venda, linhas de crédito, entre outros.",
@@ -96,7 +96,7 @@
 			}
 		},
 		{
-			"id": "6",
+			"id": 6,
 			"title": "Orientação de Legislação Tributária",
 			"category": "Leis e normas",
 			"description": "Orienta o MEI e os pequenos negócios sobre legislação tributária. Conheça os princípios e termos mais comuns das legislação em vigor e esteja em dia com o planejamento da sua empresa.",
